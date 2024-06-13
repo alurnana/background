@@ -571,3 +571,149 @@ li {
 }
 
 /* -------------------------------- NEWSLETTERS ------------------------------------ */
+.pros {
+    margin-top: 90px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.pros-card {
+    max-width: 204px;
+    margin-right: 60px;
+}
+
+.pros-card h6 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.pros-card p {
+    width: 204px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+}
+
+.newsletters h4 {
+    padding-top: 17px;
+    font-size: 18px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.email-form input {
+    height: 40px;
+    width: 260px;
+    border: none;
+    padding: 11px;
+    border-radius: 6px 0 0 6px;
+}
+
+::-webkit-input-placeholder { 
+    color: rgba(172, 172, 172, 1); 
+    font-size: 14px;
+}
+
+.email-form {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-form a {
+    display: inline-block;
+    background-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 12px 26px;
+    border-radius: 0 6px 6px 0;
+}
+
+.newsletters p {
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+}
+
+/* -------------------------------- CONTACTS ------------------------------------ */
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    padding: 0 23px;
+    background: linear-gradient(to right, rgba(237, 246, 239, 1), rgba(82, 195, 104, 1));
+}
+
+.contacts-item {
+    display: flex;
+}
+
+.contacts-item p {
+    color: rgba(61, 61, 61, 1);
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+/* -------------------------------- FOOTER SOCIAL ------------------------------------ */
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 155px 30px 25px;
+    background-color: rgba(251, 251, 251, 1);
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+
+.footer-social-item h6 {
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer-social-item ul {
+    margin-top: 8px;
+}
+
+.footer-social-item li {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer-social-item > img {
+    margin-top: 13px;
+}
+
+.social-media {
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+}
+
+.rights p {
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(61, 61, 61, 1);
+}
