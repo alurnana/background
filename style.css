@@ -579,10 +579,6 @@ li {
     background-color: rgba(251, 251, 251, 1);
 }
 
-.pros-card {
-    max-width: 204px;
-    margin-right: 60px;
-}
 
 .pros-card h6 {
     margin-top: 15px;
@@ -637,10 +633,30 @@ li {
     border-radius: 0 6px 6px 0;
 }
 
+.newsletters {
+    max-width: 350px;
+}
+
 .newsletters p {
     font-size: 13px;
     line-height: 22px;
     color: rgba(114, 114, 114, 1);
+}
+
+.create-line {
+    position: relative;
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.create-line:before{ 
+    content: " ";
+    background: rgba(70, 163, 88, 0.1);
+    width: 1px;
+    height: 187px;
+    left: 0px;
+    top: 7px;
+    position: absolute;
 }
 
 /* -------------------------------- CONTACTS ------------------------------------ */
