@@ -101,7 +101,8 @@ li {
 
 .navigation-sublist {
     top: 100%;
-    left: -50px;
+    left: 50px;
+    transform: translateX(-50%);
     padding-top: 12px;
 }
 
@@ -144,9 +145,10 @@ li {
 }
 
 .navigation-categories {
-    top: 12px;
+    top: 0px;
     left: 100%;
     padding-left: 2px;
+    padding-top: 12px;
 }
 
 .navigation-item-list {
@@ -346,6 +348,9 @@ li {
 }
 
 .card-hover a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
     padding: 7px;
