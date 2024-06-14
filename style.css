@@ -372,6 +372,9 @@ li {
 }
 
 .card-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 300px;
     position: relative;
     padding: 25px 5px;
     background-color: rgba(251, 251, 251, 1);
